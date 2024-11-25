@@ -4,8 +4,6 @@ body {
 
 .backpage {
   background: linear-gradient(#f0f0f0, #43ff64d9);
-  height: 500px;
-  width: 500px;
-  padding: auto;
-  margin: auto;
+  padding: 10px auto;
+  margin: 10px auto;
 }
