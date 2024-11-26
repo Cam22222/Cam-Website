@@ -1,12 +1,13 @@
 body {
-  background: #0000e3;
+  background: #102980;
 }
 
 .backpage {
-  background: linear-gradient(#f0f0f0, #43ff64d9);
+  background: linear-gradient(#96FFFFFF, #FFFFFF);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   padding: 20px;
   max-width: 1000px;
 }
@@ -15,15 +16,20 @@ body {
   justify-content: space-around;
 }
 .button {
-  background: rgb(200,120,120);
-  border: 5px solid rgb(230,180,180);
-  padding: 15px 32px;
-  border-radius: 32px;
-  text-align: center;
   display: inline-block;
-  font-size: 40px
-  transition-duration: 0.5s;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #33b249;
+  border: 5px solid #5dbea3;
+  border-radius: 15px;
 }
-.button:hover {
-  background: rgb(150,110,110);
+.button:hover {background-color: #39b929}
+.button:active {
+  background-color: #53c269;
+  transform: translateY(4px);
 }
