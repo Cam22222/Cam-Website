@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <link rel="stylesheet" href="style.css">
     <title>Cam's Website</title>
-    <link rel="icon" type="image/x-icon" href="imagesFolder/favicon.ico">
-</head>
-<body>
-    
-</body>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="backpage">
+      <div class="logon">
+      <div>
+      <h1>Login</h1>
+      <fieldset>
+        <label>Username: <input required id="username"></label>
+        <label>Password: <input  required id="password"></label>
+        <input type="submit" value="Login" />
+      </fieldset>
+      </div>
+      <div >
+        <form method="post" action="https://cam22222.github.io/Cam-Website/">
+        <h1>Register</h1>
+        <fieldset>
+          <label>Username: <input required id="username"></label>
+          <label>Password: <input required id="password"></label>
+          <label for="terms-and-conditions">
+            <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="termsandconditions.html">terms and conditions</a>
+          </label>
+          <input type="submit" value="Register" />
+        </fieldset>
+        </form>
+      </div>
+    </div>
+    </div>
+  </body>
 </html>
