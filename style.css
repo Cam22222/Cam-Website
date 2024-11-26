@@ -15,7 +15,7 @@ body {
   justify-content: space-around;
 }
 .button {
-  background: rgba(200,120,120,100%);
+  background: rgb(200,120,120);
   border: 5px solid rgb(230,180,180);
   padding: 15px 32px;
   border-radius: 32px;
