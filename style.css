@@ -40,3 +40,14 @@ width: auto;
 height: 100px;
 
 }
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+a {
+  text-decoration: none;
+}
+.logon {
+  display: flex;
+  justify-content: space-around;
+}
