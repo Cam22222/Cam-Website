@@ -13,3 +13,9 @@ body {
 .banner {
   background: red;
 }
+.class {
+  background: rgba(200,120,120,100);
+}
+.class: hover {
+  background: rgba(200,120,120,60);
+}
