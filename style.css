@@ -17,19 +17,26 @@ body {
 }
 .button {
   display: inline-block;
-  padding: 15px 25px;
+  padding: 15px 32px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
+  line-height: 10px;
   text-decoration: none;
   outline: none;
   color: #fff;
   background-color: #33b249;
   border: 5px solid #5dbea3;
   border-radius: 15px;
+  height: 10px;
 }
 .button:hover {background-color: #39b929}
 .button:active {
   background-color: #53c269;
   transform: translateY(4px);
+}
+img {
+width: auto;
+height: 100px;
+
 }
