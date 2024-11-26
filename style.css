@@ -12,6 +12,8 @@ body {
 }
 .banner {
   background: red;
+  display: flex;
+  justify-content: center;
 }
 .class {
   background: rgba(200,120,120,100);
